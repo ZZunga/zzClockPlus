@@ -1,0 +1,37 @@
+<strings>
+    <string id="AppName">zzClockPlus</string>
+    <string id="VersionTitle">App version</string>
+    <string id="HourTitle">Time format</string>
+    <string id="Hour0">System setting</string>
+    <string id="Hour1">12-hour</string>
+    <string id="Hour2">24-hour</string>
+    <string id="TempTitle">Temperature unit</string>
+    <string id="Temp0">System setting</string>
+    <string id="Temp1">Celsius (C)</string>
+    <string id="Temp2">Fahrenheit (F)</string>
+    <string id="UnitsTitle">Show units (C, %)</string>
+    <string id="GpsAlertTitle">GPS warning when recording starts without GPS (red flashing, 30 s)</string>
+    <string id="MileAlertTitle">Parts mileage warning (blue, 30 s after start)</string>
+    <string id="Label1">Item 1 name (e.g. Front tire)</string>
+    <string id="Limit1">Item 1 replacement interval (km/mi)</string>
+    <string id="Value1">Item 1 current distance (km/mi)</string>
+    <string id="Label2">Item 2 name (e.g. Rear tire)</string>
+    <string id="Limit2">Item 2 replacement interval (km/mi)</string>
+    <string id="Value2">Item 2 current distance (km/mi)</string>
+    <string id="Label3">Item 3 name (e.g. Chain)</string>
+    <string id="Limit3">Item 3 replacement interval (km/mi)</string>
+    <string id="Value3">Item 3 current distance (km/mi)</string>
+    <string id="Label4">Item 4 name (e.g. Cassette)</string>
+    <string id="Limit4">Item 4 replacement interval (km/mi)</string>
+    <string id="Value4">Item 4 current distance (km/mi)</string>
+    <string id="Label5">Item 5 name (e.g. Outer chainring)</string>
+    <string id="Limit5">Item 5 replacement interval (km/mi)</string>
+    <string id="Value5">Item 5 current distance (km/mi)</string>
+    <string id="Label6">Item 6 name (e.g. Inner chainring)</string>
+    <string id="Limit6">Item 6 replacement interval (km/mi)</string>
+    <string id="Value6">Item 6 current distance (km/mi)</string>
+    <string id="bgMode_title">Background</string>
+    <string id="bgAuto">Match device screen</string>
+    <string id="bgPlain">Plain black / white (default)</string>
+    <string id="bgClear">Transparent (no fill)</string>
+</strings>

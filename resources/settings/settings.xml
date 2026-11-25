@@ -1,0 +1,89 @@
+<settings>
+    <setting propertyKey="@Properties.appVersion" title="@Strings.VersionTitle">
+        <settingConfig type="alphaNumeric" readonly="true"/>
+    </setting>
+    <setting propertyKey="@Properties.hr24" title="@Strings.HourTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Hour0</listEntry>
+            <listEntry value="1">@Strings.Hour1</listEntry>
+            <listEntry value="2">@Strings.Hour2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.unitMetric" title="@Strings.TempTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Temp0</listEntry>
+            <listEntry value="1">@Strings.Temp1</listEntry>
+            <listEntry value="2">@Strings.Temp2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.showUnits" title="@Strings.UnitsTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.alertRecording" title="@Strings.GpsAlertTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.alertMileage" title="@Strings.MileAlertTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.label1" title="@Strings.Label1">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.limit1" title="@Strings.Limit1">
+        <settingConfig type="numeric" min="0" max="100000"/>
+    </setting>
+    <setting propertyKey="@Properties.value1" title="@Strings.Value1">
+        <settingConfig type="numeric" min="0" max="1000000"/>
+    </setting>
+    <setting propertyKey="@Properties.label2" title="@Strings.Label2">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.limit2" title="@Strings.Limit2">
+        <settingConfig type="numeric" min="0" max="100000"/>
+    </setting>
+    <setting propertyKey="@Properties.value2" title="@Strings.Value2">
+        <settingConfig type="numeric" min="0" max="1000000"/>
+    </setting>
+    <setting propertyKey="@Properties.label3" title="@Strings.Label3">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.limit3" title="@Strings.Limit3">
+        <settingConfig type="numeric" min="0" max="100000"/>
+    </setting>
+    <setting propertyKey="@Properties.value3" title="@Strings.Value3">
+        <settingConfig type="numeric" min="0" max="1000000"/>
+    </setting>
+    <setting propertyKey="@Properties.label4" title="@Strings.Label4">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.limit4" title="@Strings.Limit4">
+        <settingConfig type="numeric" min="0" max="100000"/>
+    </setting>
+    <setting propertyKey="@Properties.value4" title="@Strings.Value4">
+        <settingConfig type="numeric" min="0" max="1000000"/>
+    </setting>
+    <setting propertyKey="@Properties.label5" title="@Strings.Label5">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.limit5" title="@Strings.Limit5">
+        <settingConfig type="numeric" min="0" max="100000"/>
+    </setting>
+    <setting propertyKey="@Properties.value5" title="@Strings.Value5">
+        <settingConfig type="numeric" min="0" max="1000000"/>
+    </setting>
+    <setting propertyKey="@Properties.label6" title="@Strings.Label6">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.limit6" title="@Strings.Limit6">
+        <settingConfig type="numeric" min="0" max="100000"/>
+    </setting>
+    <setting propertyKey="@Properties.value6" title="@Strings.Value6">
+        <settingConfig type="numeric" min="0" max="1000000"/>
+    </setting>
+    <setting propertyKey="@Properties.bgMode" title="@Strings.bgMode_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.bgAuto</listEntry>
+            <listEntry value="1">@Strings.bgPlain</listEntry>
+            <listEntry value="2">@Strings.bgClear</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

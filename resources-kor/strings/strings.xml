@@ -1,0 +1,37 @@
+<strings>
+    <string id="AppName">zzClockPlus</string>
+    <string id="VersionTitle">버전 정보</string>
+    <string id="HourTitle">시간 표시 형식</string>
+    <string id="Hour0">시스템 설정</string>
+    <string id="Hour1">12시간제</string>
+    <string id="Hour2">24시간제</string>
+    <string id="TempTitle">온도 단위</string>
+    <string id="Temp0">시스템 설정</string>
+    <string id="Temp1">섭씨 (C)</string>
+    <string id="Temp2">화씨 (F)</string>
+    <string id="UnitsTitle">단위 표시 (C, %)</string>
+    <string id="GpsAlertTitle">GPS 미수신 기록 경고 (빨간색 깜빡임, 30초)</string>
+    <string id="MileAlertTitle">소모품 교체 알림 (출발 후 30초 파란색)</string>
+    <string id="Label1">항목 1 이름 (예: 앞타이어)</string>
+    <string id="Limit1">항목 1 교체 주기 (km/mi)</string>
+    <string id="Value1">항목 1 현재 주행거리 (km/mi)</string>
+    <string id="Label2">항목 2 이름 (예: 뒤타이어)</string>
+    <string id="Limit2">항목 2 교체 주기 (km/mi)</string>
+    <string id="Value2">항목 2 현재 주행거리 (km/mi)</string>
+    <string id="Label3">항목 3 이름 (예: 체인)</string>
+    <string id="Limit3">항목 3 교체 주기 (km/mi)</string>
+    <string id="Value3">항목 3 현재 주행거리 (km/mi)</string>
+    <string id="Label4">항목 4 이름 (예: 카세트)</string>
+    <string id="Limit4">항목 4 교체 주기 (km/mi)</string>
+    <string id="Value4">항목 4 현재 주행거리 (km/mi)</string>
+    <string id="Label5">항목 5 이름 (예: 큰 체인링)</string>
+    <string id="Limit5">항목 5 교체 주기 (km/mi)</string>
+    <string id="Value5">항목 5 현재 주행거리 (km/mi)</string>
+    <string id="Label6">항목 6 이름 (예: 작은 체인링)</string>
+    <string id="Limit6">항목 6 교체 주기 (km/mi)</string>
+    <string id="Value6">항목 6 현재 주행거리 (km/mi)</string>
+    <string id="bgMode_title">배경색</string>
+    <string id="bgAuto">기기 화면색에 맞춤</string>
+    <string id="bgPlain">검정 / 흰색 그대로 (기본)</string>
+    <string id="bgClear">투명 (칠하지 않음)</string>
+</strings>

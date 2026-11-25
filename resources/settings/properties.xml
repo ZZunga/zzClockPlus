@@ -1,0 +1,28 @@
+<properties>
+    <property id="appVersion" type="string">1.0.2</property>
+    <property id="hr24" type="number">0</property>
+    <property id="unitMetric" type="number">0</property>
+    <property id="showUnits" type="boolean">true</property>
+    <property id="alertRecording" type="boolean">true</property>
+    <property id="alertMileage" type="boolean">true</property>
+    <property id="label1" type="string">Front Tire</property>
+    <property id="limit1" type="number">5000</property>
+    <property id="value1" type="number">0</property>
+    <property id="label2" type="string">Rear Tire</property>
+    <property id="limit2" type="number">5000</property>
+    <property id="value2" type="number">0</property>
+    <property id="label3" type="string">Chain</property>
+    <property id="limit3" type="number">5000</property>
+    <property id="value3" type="number">0</property>
+    <property id="label4" type="string">Cassette</property>
+    <property id="limit4" type="number">15000</property>
+    <property id="value4" type="number">0</property>
+    <property id="label5" type="string">Out Chainring</property>
+    <property id="limit5" type="number">50000</property>
+    <property id="value5" type="number">0</property>
+    <property id="label6" type="string">Inn Chainring</property>
+    <property id="limit6" type="number">50000</property>
+    <property id="value6" type="number">0</property>
+    <!-- 배경색: 0=기기 화면색에 맞춤 1=검정/흰색 그대로(기본) 2=투명(안 칠함) -->
+    <property id="bgMode" type="number">1</property>
+</properties>

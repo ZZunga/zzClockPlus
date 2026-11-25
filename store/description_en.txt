@@ -1,0 +1,34 @@
+[Title]
+zzClockPlus - Clock, Temperature, GPS, Battery
+
+[Description]
+A clock data field with a status row: temperature, GPS signal and battery level above a big clock.
+Built with the TitilliumWeb font for better readability on the move.
+A rebuilt version of zzClock.
+
+[Clock]
+- One slot of the 10-field layout: hours and minutes. Wide slots: hours, minutes and seconds.
+- 12-hour, 24-hour or follow the device setting. AM/PM shown in blue.
+
+[Status row]
+- Temperature from the device sensor, in °C or °F (follow device or choose).
+- GPS signal bars: orange bars for signal strength, gray slashed icon when there is no signal.
+- Battery % and icon: green, yellow under 30%, red under 15%, and a charging icon.
+- Turn off "Show units" to hide C, % and AM/PM and make the status row bigger.
+
+[Alerts]
+- GPS: if there is no GPS signal in the first 30 seconds after you start or resume recording, the background flashes red.
+- Parts mileage: after each activity the distance is added to up to 6 parts (chain, tires...). If any part is past its replacement distance, the background turns blue for 30 seconds after you start.
+
+[Supported devices]
+Edge 540 / 550 / 840 / 850 / 1040 / 1050 / 1060
+
+Change settings in the Garmin Connect IQ app or Garmin Express.
+
+[What's new]
+v1.0.2
+- New background setting (match device screen / plain black-white / transparent)
+- Fixed a white background being painted when the device reports a transparent background
+
+v1.0.1
+- First release

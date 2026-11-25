@@ -1,0 +1,17 @@
+<fonts>
+    <font id="Clock" filename="clock_67.fnt" antialias="true" filter="0123456789:"/>
+    <font id="AmPm" filename="ampm_19.fnt" antialias="true" filter="AMP"/>
+    <font id="Status" filename="status_24.fnt" antialias="true" filter="0123456789-CF%"/>
+    <font id="StatusN" filename="statusn_30.fnt" antialias="true" filter="0123456789-CF%"/>
+    <font id="Icon" filename="icon_24.fnt" antialias="true" filter="01234ABCDEF"/>
+    <font id="IconN" filename="iconn_30.fnt" antialias="true" filter="01234ABCDEF"/>
+    <font id="StatusX" filename="statusx_37.fnt" antialias="true" filter="0123456789-CF%"/>
+    <font id="IconX" filename="iconx_37.fnt" antialias="true" filter="01234ABCDEF"/>
+    <font id="StatusY" filename="statusy_29.fnt" antialias="true" filter="0123456789-CF%"/>
+    <font id="IconY" filename="icony_29.fnt" antialias="true" filter="01234ABCDEF"/>
+    <font id="WClock" filename="wclock_80.fnt" antialias="true" filter="0123456789:"/>
+    <font id="WAmPm" filename="wampm_26.fnt" antialias="true" filter="AMP"/>
+    <font id="WStatus" filename="wstatus_46.fnt" antialias="true" filter="0123456789-CF%"/>
+    <font id="WIcon" filename="wicon_46.fnt" antialias="true" filter="01234ABCDEF"/>
+    <font id="ClockLow" filename="clocklow_67.fnt" antialias="true" filter="0123456789:"/>
+</fonts>
