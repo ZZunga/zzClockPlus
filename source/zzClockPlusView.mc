@@ -24,7 +24,7 @@ class zzClockPlusView extends WatchUi.DataField {
     //          1 기기가 알려준 검정·흰색 그대로 (기본, 지금까지의 동작)
     //          2 투명 - 칠하지 않아 기기 배경이 그대로 비친다
     enum { BG_AUTO, BG_PLAIN, BG_CLEAR }
-    private var _bgMode as Number = BG_PLAIN;
+    private var _bgMode as Number = BG_AUTO;
     private var _units as Boolean = true;
     private var _alertGps as Boolean = true;
     private var _alertMileage as Boolean = true;
@@ -78,7 +78,7 @@ class zzClockPlusView extends WatchUi.DataField {
         _alertGps = boolProp("alertRecording", true);
         _alertMileage = boolProp("alertMileage", true);
         var bm = numProp("bgMode");
-        _bgMode = (bm >= 0 && bm <= 2) ? bm : BG_PLAIN;
+        _bgMode = (bm >= 0 && bm <= 2) ? bm : BG_AUTO;
         _tempV = -9999; _battV = -1; _clockKey = -1;
     }
 
