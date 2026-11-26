@@ -46,6 +46,8 @@ class zzClockPlusView extends WatchUi.DataField {
 
     // ---- 레이아웃 ----
     private var _wide as Boolean = false;
+    // 1050 / 1060 (화면폭 480 이상). onUpdate 에서 매번 묻지 않는다
+    private var _big as Boolean = false;
     private var _low as Boolean = false;          // 높이가 낮은 넓은 칸: 한 줄 배치
     private var _amInRow as Boolean = false;      // 오전/오후를 상태 줄에 넣음 (540/840 10필드 칸)
     private var _L as Number = 0, _T as Number = 0, _R as Number = 0, _B as Number = 0;
@@ -95,7 +97,9 @@ class zzClockPlusView extends WatchUi.DataField {
     // =========================================================
     function onLayout(dc as Graphics.Dc) as Void {
         var w = dc.getWidth(), h = dc.getHeight();
-        _wide = w > System.getDeviceSettings().screenWidth * 0.75f;
+        var sw = System.getDeviceSettings().screenWidth;
+        _wide = w > sw * 0.75f;
+        _big = (sw >= 480);
         _L = (w * 0.05f + 0.5f).toNumber();
         _T = (h * 0.05f + 0.5f).toNumber();
         _R = w - _L;
@@ -210,8 +214,7 @@ class zzClockPlusView extends WatchUi.DataField {
         var sys = getBackgroundColor();
         var sysClear = (sys == Graphics.COLOR_TRANSPARENT);   // 기기가 "투명"이라고 알려준 경우
         var night = (sys == Graphics.COLOR_BLACK || sysClear);
-        var soft = (_bgMode == BG_AUTO)
-                && (System.getDeviceSettings().screenWidth >= 480);   // 1050 / 1060
+        var soft = (_bgMode == BG_AUTO) && _big;   // _big = 1050 / 1060
         var fg = night ? Graphics.COLOR_WHITE
                        : (soft ? 0x313152 : Graphics.COLOR_BLACK);
         var bg = night ? (soft ? 0x17181D : Graphics.COLOR_BLACK)

@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersion" type="string">1.0.2</property>
+    <property id="appVersion" type="string">1.0.3</property>
     <property id="hr24" type="number">0</property>
     <property id="unitMetric" type="number">0</property>
     <property id="showUnits" type="boolean">true</property>
